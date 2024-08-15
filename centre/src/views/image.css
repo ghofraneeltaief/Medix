@@ -1,0 +1,18 @@
+/* App.css */
+.app-image-gallery {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .app-image-gallery .image-gallery-thumbnail {
+    border: 2px solid #ddd;
+    transition: border-color 0.3s;
+  }
+  
+  .app-image-gallery .image-gallery-thumbnail:hover,
+  .app-image-gallery .image-gallery-thumbnail:focus {
+    border-color: #007bff;
+  }
+  
